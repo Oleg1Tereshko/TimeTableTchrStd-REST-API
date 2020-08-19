@@ -69,8 +69,7 @@ Metod POST:
 /admn/id/delete - видалення запису з БД.
 /admn/create - створити запис: Задати параметри id,teacher_name,subject,tchrFreTimFrom,tchrFreTimTo,
                 student_name,price_perhour$,stddateFrom,stddateTo,tchrstatus,stdstatus.
-Щоб запобігти небажаним проблемам параметри tchrFreTimFrom,tchrFreTimTo,stddateFrom,stddateTo додати до списку та
-не задавати значення.
+
 Поля Enum встановити наступним чином:
 price_perhour$: 1 - ціна за 15хв.
                 2 - ціна за 30хв.
